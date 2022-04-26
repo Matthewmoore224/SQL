@@ -1,0 +1,30 @@
+/* Create your own store!
+Your store should sell one type of things, like clothing or bikes, whatever you want your store to specialize in.
+You should have a table for all the items in your store, and at least 5 columns for the kind of data you think you'd need to store.
+You should sell at least 15 items, and use select statements to order your items by price and show at least one statistic about the items.*/
+
+CREATE TABLE MIDWAY_SADDLES (id INTEGER PRIMARY KEY, Style TEXT, quantity INTEGER, Color TEXT, Price Integer);
+
+INSERT into MIDWAY_SADDLES VALUES (1, "English LEATHER", 12, "Black", 124.34);
+INSERT into MIDWAY_SADDLES VALUES(2, "English Composite Hybrid", 4, "Black", 118.24);
+INSERT into MIDWAY_SADDLES VALUES(3, "ENGLISH REIGNS LEATHER", 10, "Black", 32.40);
+INSERT into MIDWAY_SADDLES VAlUES(4,"ENGLISH REIGNS Composite Hybrid", 6, "Black", 28.26);
+INSERT into MIDWAY_SADDLES VALUES(5, "Coastal Hay Bundles", 240, "NA", 26.20);
+INSERT into MIDWAY_SADDLES VALUES( 6, "Southern BAY HAY Bundles",120, "NA", 24.20);
+INSERT into MIDWAY_SADDLES VALUES(7., "FRANLINS FARMS HORSE DEWORMER", 38, "NA", 42.10);
+INSERT into MIDWAY_SADDLES VALUES(8, " THOMPSON LABS HORSE DEWROMER", 20, "NA", 22.10);
+INSERT into MIDWAY_SADDLES VALUES(9, " IRON TOE HORSE SHOE COMPOSITE", 42, "Black", 22.10);
+INSERT into MIDWAY_SADDLES VALUES(10, "JOCKEY CLUB HORSE SHOE METAL", 40, "SILVER",38.16);
+INSERT into MIDWAY_SADDLES VALUES(11, "OBS CATALOG MARCH", 120, "NA", 5.20);
+INSERT into MIDWAY_SADDLES VALUES(12, "OBS CATALOG APRIL",120,"NA", 5.20);
+INSERT into MIDWAY_SADDLES VALUES(13, "OBS CATALOG JUNE",120,"NA",5.20);
+INSERT into MIDWAY_SADDLES VALUES(14, " GULFSTREAM CONDITION BOOK CHAMPIONSHIP MEET", 140, "NA", 10.00);
+INSERT into MIDWAY_SADDLES VALUES(15, " GULFSTREAM CONDITION BOOK SUMMER MEET", 140, "NA", 10.00);
+
+
+SELECT* FROM MIDWAY_SADDLES
+ORDER BY Price ASC
+
+
+
+
